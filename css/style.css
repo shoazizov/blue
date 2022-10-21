@@ -313,6 +313,7 @@ body {
 .contacts {
     display: flex;
     flex-direction: column;
+    align-items: flex-endgg;
     gap: 15px;
 }
 
@@ -321,7 +322,6 @@ body {
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
-    text-align: right;
     color: #FFFFFF;
 }
 
