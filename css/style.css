@@ -290,3 +290,46 @@ body {
     font-weight: 300;
     line-height: 13px;
 }
+
+.footer {
+    padding: 40px 0;
+    background: #3FA5D5;
+}
+
+.footer__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__h {
+    font-family: 'RB', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact__link {
+    font-family: 'RB';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.contact__links {
+    font-family: 'RR';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: right;
+    color: #FFFFFF;
+}
