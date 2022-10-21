@@ -313,23 +313,19 @@ body {
 .contacts {
     display: flex;
     flex-direction: column;
-    align-items: flex-endgg;
+    align-items: flex-end;
     gap: 15px;
 }
 
 .contact__link {
-    font-family: 'RB';
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 21px;
-    color: #FFFFFF;
-}
-
-.contact__links {
     font-family: 'RR';
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
-    text-align: right;
     color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.contact__link:hover {
+    font-weight: 700;
 }
